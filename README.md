@@ -4,7 +4,7 @@
 ### Mohamad Zeini Jahromi
 ### Sep 18th, 2017
 
-To see the project refer to `Capstone_project.pdf` and `Capstone Project.ipynb` files.
+To see the project refer to `Capstone_project.pdf` and `Capstone_Project.ipynb` files.
 
 The project code are in `Capstone_project.py` and `visuals.py`.
 
@@ -36,7 +36,7 @@ ipython notebook Capstone Project.ipynb
 ```  
 or
 ```bash
-jupyter notebook Capstone Project.ipynb
+jupyter notebook Capstone_Project.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your browser.
