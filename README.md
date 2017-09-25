@@ -1,1 +1,1 @@
-# Higher-Education-Institutes-Ranking-Prediction
+# Higher Education Institutes Ranking Prediction
