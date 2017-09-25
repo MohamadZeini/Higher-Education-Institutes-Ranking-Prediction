@@ -6,7 +6,7 @@
 
 To see the project refer to `Capstone_project.pdf` and `Capstone_Project.ipynb` files.
 
-The project code are in `Capstone_project.py` and `visuals.py`.
+The project visual functions are in `visuals.py`.
 
 ### Install
 
