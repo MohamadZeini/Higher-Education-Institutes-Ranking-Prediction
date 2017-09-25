@@ -5,6 +5,7 @@
 ### Sep 18th, 2017
 
 To see the project refer to `Capstone_project.pdf` and `Capstone Project.ipynb` files.
+
 The project code are in `Capstone_project.py` and `visuals.py`.
 
 ### Install
@@ -23,6 +24,7 @@ If you do not have Python installed yet, it is highly recommended that you insta
 ### Code
 
 To see the project refer to `Capstone_project.pdf` and `Capstone Project.ipynb` files.
+
 The project code are in `Capstone_project.py` and `visuals.py`.
 
 ### Run
@@ -44,9 +46,13 @@ This will open the Jupyter Notebook software and project file in your browser.
 This study is inspired by Udacity's capstone project guidelines and uses the IPEDS dataset ([Integrated Postsecondary Education Data System Delta Cost Project Database](https://nces.ed.gov/ipeds/deltacostproject/)), which is based on surveys on finance, enrollment, staffing, completions, and student aid of post-secondary education institutions within the US. 
 
 For this project you need to download the following file:
+
 1) [IPEDS Analytics: Delta Cost Project Database 1987-2012 (CSV) (109 MB)](https://nces.ed.gov/ipeds/deltacostproject/download/IPEDS_Analytics_DCP_87_12_CSV.zip)
 
 And for more information on features of the datasets and its liberies, you can download the following files.
+
 2) [IPEDS Analytics: Delta Cost Project Database 1987-2012 Data File Documentation PDF File (386 KB)](https://nces.ed.gov/ipeds/deltacostproject/download/DCP_Data_File_Documentation_1987_2012.pdf)
+
 3) [Data Dictionary Excel File (890 KB)](https://nces.ed.gov/ipeds/deltacostproject/download/Delta_Data_Dictionary_1987_2012.xls)
+
 4) [Data Mapping File Excel File (299 KB)](https://nces.ed.gov/ipeds/deltacostproject/download/IPEDS_DCP_Database_Mapping_File_87_12.xls)
