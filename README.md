@@ -8,6 +8,12 @@ To see the project refer to `Capstone_project.pdf` and `Capstone_Project.ipynb` 
 
 The project visual functions are in `visuals.py`.
 
+### Overview
+
+The total number of awards, certificates, and degrees completed each year in post-secondary education institutions have been widely used to evaluate their performances and are an indication of relative success and ranking of these institutions throughout the nation. Many studies have investigated the effects of different parameters (such as financial aid, institutes funds, revenue, expenditures and etc.) on the institutes completion rates. The results of these studies could help institutions to decide how to allocate funds to their segments more effectively and create a well-balanced money flow within their systems. On the other hand, the costs of higher education in the United Sates are high and it’s being considered as an investment and consequently having a knowledge of success rate and ranking of a specific institution would help both students and their families in making the right decision.
+
+This project focuses on studying the relationship between institutions financial aid and expenditure and their respective completion rates (the total number of award, certificate, and degree completed). Furthermore, a predictive model will be developed in order to predict the completion rates using the financial aid and expenditure data of institutions. This study is inspired by Udacity's capstone project guidelines and uses the IPEDS dataset ([Integrated Postsecondary Education Data System Delta Cost Project Database](https://nces.ed.gov/ipeds/deltacostproject/), which is based on surveys on finance, enrollment, staffing, completions, and student aid of post-secondary education institutions within the US.
+
 ### Install
 
 This project requires **Python 2.7** and the following Python libraries installed:
