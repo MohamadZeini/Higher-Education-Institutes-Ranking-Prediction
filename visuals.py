@@ -150,3 +150,44 @@ def evaluate(results, accuracy, f1):
     #fig.savefig("06.png", dpi=600,bbox_inches='tight');
     plt.show()
     return fig
+
+def biplot(good_data, reduced_data, pca):
+    '''
+    Produce a biplot that shows a scatterplot of the reduced
+    data and the projections of the original features.
+    
+    good_data: original data, before transformation.
+               Needs to be a pandas dataframe with valid column names
+    reduced_data: the reduced data (the first two dimensions are plotted)
+    pca: pca object that contains the components_ attribute
+
+    return: a matplotlib AxesSubplot object (for any additional customization)
+    
+    This procedure is inspired by the script:
+    https://github.com/teddyroland/python-biplot
+    '''
+
+    fig, ax = plt.subplots(figsize = (16,14))
+    # scatterplot of the reduced data    
+    ax.scatter(x=reduced_data.loc[:, 0], y=reduced_data.loc[:, 1], 
+        facecolors='cornflowerblue', edgecolors='cornflowerblue', s=70, alpha=0.1)
+    
+    feature_vectors =  pca.components_.T #['loan_num','pubser01','rschpub01']
+
+    # we use scaling factors to make the arrows easier to see
+    arrow_size, text_pos = 1.0, 1.1,
+
+    # projections of the original features
+    for i, v in enumerate(feature_vectors):
+        ax.arrow(0, 0, arrow_size*v[0], arrow_size*v[1], 
+                  head_width=0.05, head_length=0.05, linewidth=2, color='dodgerblue')
+        ax.text(v[0]*text_pos, v[1]*text_pos, good_data.columns[i], color='black', 
+                 ha='center', va='center', fontsize=18)
+
+    ax.set_xlabel("Dimension 1", fontsize=14)
+    ax.set_ylabel("Dimension 2", fontsize=14)
+    ax.set_xlim(left=-1, right=1)
+    ax.set_ylim(bottom=-1, top=1)
+    ax.set_title("PC plane with original feature projections.", fontsize=16);
+    #fig.savefig("07.png", dpi=300,bbox_inches='tight');
+    return ax
