@@ -47,7 +47,7 @@ jupyter notebook Capstone_Project.ipynb
 
 This will open the Jupyter Notebook software and project file in your browser.
 
-## Data
+### Data
 
 This study is inspired by Udacity's capstone project guidelines and uses the IPEDS dataset ([Integrated Postsecondary Education Data System Delta Cost Project Database](https://nces.ed.gov/ipeds/deltacostproject/)), which is based on surveys on finance, enrollment, staffing, completions, and student aid of post-secondary education institutions within the US. 
 
